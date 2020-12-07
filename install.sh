@@ -24,3 +24,9 @@ sudo chmod +x /usr/bin/docker-compose
 # DOCKER
 # ------------------------------------------------------------------------------
 sudo apt install -y make
+
+# NODE
+# ------------------------------------------------------------------------------
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt update && \
+  apt install -y nodejs
