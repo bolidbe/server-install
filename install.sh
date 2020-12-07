@@ -4,7 +4,7 @@
 # ------------------------------------------------------------------------------
 # apt-get remove docker docker-engine docker.io
 sudo apt update
-sudo apt install \
+sudo apt install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -16,9 +16,9 @@ sudo add-apt-repository \
    stable"
 
 sudo apt update
-sudo apt install docker-ce
-sudo apt install docker-compose
+sudo apt install -y docker-ce
+sudo apt install -y docker-compose
 
 # DOCKER
 # ------------------------------------------------------------------------------
-sudo apt install make
+sudo apt install -y make
